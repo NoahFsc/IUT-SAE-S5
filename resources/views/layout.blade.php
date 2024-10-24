@@ -24,7 +24,7 @@
                 </div>
                 <div class="items-center hidden gap-12 md:flex">
                     <a href="{{ route('home') }}" class="nav-link {{ Route::is('home') ? 'active' : '' }}">Accueil</a>
-                    <a href="{{ route('home') }}" class="nav-link">Acheter</a>
+                    <a href="{{ route('acheter.index') }}" class="nav-link {{ Route::is('acheter.index') ? 'active' : '' }}">Acheter</a>
                     <a href="{{ route('home') }}" class="nav-link">Enchérir</a>
                     <a href="{{ route('home') }}" class="nav-link">Vendre</a>
                     @auth
