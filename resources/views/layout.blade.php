@@ -16,7 +16,7 @@
     <body class="bg-background">
 
         {{-- Ordinateur --}}
-        <nav class="p-8">
+        <nav class="relative z-50 p-8 bg-background">
             <div class="flex items-center mx-auto md:justify-between">
                 <div class="flex items-center gap-2">
                     <img src="{{ asset('assets/logo.png') }}" alt="Logo" class="h-12 mb-2">
