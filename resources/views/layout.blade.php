@@ -12,6 +12,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
         <script src="{{ asset('assets/fontawesome.js') }}" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2" defer></script>
     </head>
     <body class="bg-background">
 
